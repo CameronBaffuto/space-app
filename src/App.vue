@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Navbar from './components/Navbar.vue';
 import Table from './components/Table.vue';
+import Apod from './components/APOD.vue';
 import { useToast } from 'primevue/usetoast';
 </script>
 
@@ -8,8 +9,9 @@ import { useToast } from 'primevue/usetoast';
   <div>
     <Navbar />
     <div class="container mx-auto p-4">
-      <h1 class="text-2xl font-bold text-center">Welcome to the F1 App</h1>
-      <Table />
+      <h1 class="text-2xl font-bold text-center">Astronomy Picture of the Day</h1>
+      <Apod />
+      <!-- <Table /> -->
     </div>
   </div>
 </template>

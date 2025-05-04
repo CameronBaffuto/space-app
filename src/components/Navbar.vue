@@ -31,7 +31,7 @@ export default defineComponent({
   <Toast />
   <div class="flex justify-between items-center p-4">
     <div class="text-white">
-      <img src="../assets/F1-logo.svg" alt="F1 Logo" class="h-10 w-20" />
+      <img src="../assets/nasa.png" alt="Nasa Logo" class="h-10 w-10" />
     </div>
     <Button
       :icon="isDarkMode ? 'pi pi-moon' : 'pi pi-sun'"
