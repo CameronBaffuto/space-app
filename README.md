@@ -1,5 +1,28 @@
-# Vue 3 + TypeScript + Vite
+# 🌌 NASA APOD Viewer
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A simple Vue 3 app that displays NASA's Astronomy Picture of the Day (APOD) using the official NASA Open API.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+---
+
+## 🛠 Technologies Used
+
+- **Vue 3** + **Vite**
+- **TypeScript**
+- **Pinia** 
+- **PrimeVue**
+- **TailwindCSS**
+- **Axios**
+
+---
+
+## 🔗 NASA API Documentation
+
+- [NASA Open APIs](https://api.nasa.gov/)
+- [APOD Endpoint Docs](https://api.nasa.gov/#apod)
+
+---
+
+## 📦 About
+
+This project fetches the Astronomy Picture of the Day from NASA’s public API and displays it with metadata. It uses a `.env` file for securely storing the API key.
+
