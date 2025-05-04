@@ -24,5 +24,5 @@ A simple Vue 3 app that displays NASA's Astronomy Picture of the Day (APOD) usin
 
 ## 📦 About
 
-This project fetches the Astronomy Picture of the Day from NASA’s public API and displays it with metadata. It uses a `.env` file for securely storing the API key.
+This project fetches the Astronomy Picture of the Day from NASA’s public API and displays it with metadata.
 
